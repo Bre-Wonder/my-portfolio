@@ -18,20 +18,22 @@ const Home = () => {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Breanna</span>
-          </h1>
-          <p className="hero-subtitle">Full Stack Web Developer</p>
-          <p className="hero-description">
-            I love connectivity. I've come to realize that all sorts of things guide me there. I discovered an interest in the connectivity of sports, experiencing other cultures and ways of life, and relationships built on belonging to something bigger than myself. During the beginning of the pandemic, I tinkered around with HTML and CSS hoping to develop a new skill. I enjoyed the ability of creating something that was usable. From there, I decided to take a step further and jumped into a new career field of web development. My goal is developing websites that connect users with the things they want to connect with and make websites more understandable by making information more accessible and interactive through visualization. A user that is connected means that they are a step closer to finding what they most need and want. A connection for a user can transform their experience and is where I want to be. 
-          </p>
-          <div className="hero-buttons">
-            <Link to="/projects" className="btn btn-primary">
-              View My Work
-            </Link>
-            <Link to="/contact" className="btn btn-secondary">
-              Get In Touch
-            </Link>
+          <div className="hero-text-wrapper">
+            <h1 className="hero-title">
+              Hi, I'm <span className="highlight">Breanna</span>
+            </h1>
+            <p className="hero-subtitle">Full Stack Web Developer</p>
+            <p className="hero-description">
+              I love connectivity. I've come to realize that all sorts of things guide me there. I discovered an interest in the connectivity of sports, experiencing other cultures and ways of life, and relationships built on belonging to something bigger than myself. During the beginning of the pandemic, I tinkered around with HTML and CSS hoping to develop a new skill. I enjoyed the ability of creating something that was usable. From there, I decided to take a step further and jumped into a new career field of web development. My goal is developing websites that connect users with the things they want to connect with and make websites more understandable by making information more accessible and interactive through visualization. A user that is connected means that they are a step closer to finding what they most need and want. A connection for a user can transform their experience and is where I want to be. 
+            </p>
+            <div className="hero-buttons">
+              <Link to="/projects" className="btn btn-primary">
+                View My Work
+              </Link>
+              <Link to="/contact" className="btn btn-secondary">
+                Get In Touch
+              </Link>
+            </div>
           </div>
         </div>
         <div className="hero-image">
