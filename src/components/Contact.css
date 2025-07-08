@@ -81,6 +81,18 @@
   object-fit: contain;
 }
 
+.medium-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.x-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
 .contact-details h3 {
   font-size: 1rem;
   font-weight: 600;
