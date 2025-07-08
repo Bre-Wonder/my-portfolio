@@ -1,0 +1,33 @@
+.footer {
+  background-color: var(--bg-dark);
+  color: #FACFCE;
+  padding: 1.5rem 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Ensure footer stays at bottom */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem 0;
+  }
+  
+  .footer-text {
+    font-size: 0.8rem;
+  }
+} 
