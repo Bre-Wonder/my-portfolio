@@ -41,35 +41,35 @@ const Projects = () => {
     {
       id: 4,
       title: 'Meet App',
-      description: 'A content management system for blogs with markdown support, user authentication, and admin dashboard.',
+      description:'The Meet App is a serverless, progressive web application built in React using test-driven development. The user should be able to open the application whether online or offline to select a city to see a list of events for that location. Each city should allow the user to select event details, filter the number of events they want to view, and see a vizualization of the details of all the events going on in that city.',
       image: '📝',
       screenshot: '/images/Meet.png',
-      technologies: ['React', 'Express', 'PostgreSQL'],
+      technologies: ['React', 'D3', 'AWS Lambda', 'gh-pages'],
       category: 'fullstack',
-      liveUrl: '#',
-      githubUrl: '#'
+      liveUrl: 'https://bre-wonder.github.io/meet-app/',
+      githubUrl: 'https://github.com/Bre-Wonder/meet-app'
     },
     {
       id: 5,
-      title: 'React Native Mobile App',
-      description: 'A responsive portfolio website showcasing projects and skills with modern design and smooth animations.',
+      title: 'React Native Mobile Chat App',
+      description: 'The Chat Me Upp Mobile App is designed for user to be able to allow users a chat interface where they can exchanged text and image messages. The user will start on an initial screen where they can choose their username and background color. Once the user clicks the "Start Chatting" button they will be directed to a second screen that allows the messaging of text, location and images. ',
       image: '🎨',
-      screenshot: '/images/portfolio-screenshot.png',
-      technologies: ['React', 'CSS3', 'JavaScript'],
-      category: 'frontend',
+      screenshot: '/images/chat.png',
+      technologies: ['REACT NATIVE', 'Expo CLI', 'React Navigation Stack', 'CGifted Chat Libaray', 'Cloud Firestore from Google'],
+      category: 'mobile',
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/Bre-Wonder/chat-demo/tree/main`'
     },
     {
       id: 6,
       title: 'myFlix Angular App',
-      description: 'A RESTful API service for managing user data with authentication, authorization, and database operations.',
+      description: 'This is a client-side application built in Angular to display movie and profile information to a signed up user. The user will be able to view a list of movies and update profile information specific to their account connected to a REST API and database.',
       image: '🔧',
       screenshot: '/images/myFlix-Angular.png',
-      technologies: ['Node.js', 'Express', 'MongoDB'],
-      category: 'backend',
-      liveUrl: '#',
-      githubUrl: '#'
+      technologies: ['Angular', 'Typescript', 'Angular Material'],
+      category: 'frontend',
+      liveUrl: 'https://bre-wonder.github.io/myFlix-Angular-App/welcome',
+      githubUrl: 'https://github.com/Bre-Wonder/myFlix-Angular-App'
     }
   ];
 
