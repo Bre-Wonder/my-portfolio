@@ -31,15 +31,16 @@
   color: var(--primary-color);
 }
 
-.logo-image {
-  height: 40px;
-  width: auto;
-  max-width: 150px;
-  object-fit: contain;
+.logo-text {
+  font-family: 'Giaza', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--primary-color);
   transition: var(--transition);
 }
 
-.logo-image:hover {
+.logo-text:hover {
+  color: var(--primary-color);
   transform: scale(1.05);
 }
 
