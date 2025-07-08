@@ -60,12 +60,36 @@ const Home = () => {
       <section className="about">
         <div className="container">
           <div className="about-card">
-            <h2 className="section-title">About Me</h2>
+            <h2 className="section-title">A few hints about me.</h2>
             <div className="about-content">
               <div className="about-text">
-                <p>
-                A few hints about me. I love movement especially if it's a sport, a good real-life human story bonus if it involves a meaningful risk, a mission to be inspired by and go all in for, a travel trip to an international country win if it's with friends you love, the opportunity to serve or encourage someone, the kind of kindness that feels like magic, fresh air when it rains but also the sun, a polaroid picture.
-                </p>
+                  <p>
+                  I love...
+                  </p>
+                  <p>
+                  Movement, especially if it's a sport. 
+                  </p>
+                  <p>
+                  A good real-life human story bonus if it involves a meaningful risk. 
+                  </p>
+                  <p>
+                  A mission to be inspired by and go all in for. 
+                  </p>
+                  <p>
+                  A travel trip to an international country, win if it's with friends you love. 
+                  </p>
+                  <p>
+                  The opportunity to serve or encourage someone. 
+                  </p>
+                  <p>
+                  The kind of kindness that feels like magic. 
+                  </p>
+                  <p>
+                  Fresh air when it rains but also the sun.
+                  </p>
+                  <p>
+                  A polaroid picture.
+                  </p>
                 <div className="about-stats">
                   <div className="stat">
                     <h3>6+</h3>
