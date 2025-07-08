@@ -24,8 +24,8 @@ const Contact = () => {
     {
       icon: 'linkedin',
       title: 'LinkedIn',
-      value: 'www.linkedin.com/in/breanna-steward-8b2a462a9',
-      link: 'www.linkedin.com/in/breanna-steward-8b2a462a9'
+      value: 'My Profile Here',
+      link: 'https://www.linkedin.com/in/breanna-steward-8b2a462a9'
     }
   ];
 
@@ -94,8 +94,19 @@ const Contact = () => {
                     className="linkedin-icon"
                   />
                 </a>
-                <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-icon">
-                  <span>🐦</span>
+                <a href="https://x.com/bresteward61" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  <img 
+                    src="/images/Xlogo.png" 
+                    alt="Twitter/X" 
+                    className="x-icon"
+                  />
+                </a>
+                <a href="https://medium.com/@bresteward61" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  <img 
+                    src="/images/Medium-Icon-Black.png" 
+                    alt="Medium" 
+                    className="medium-icon"
+                  />
                 </a>
               </div>
             </div>
