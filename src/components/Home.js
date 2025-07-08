@@ -35,18 +35,20 @@ const Home = () => {
           </div>
         </div>
         <div className="hero-image">
-          <div className="profile-photo">
-            <img 
-              src="/images/Portfolio_Photo1.jpg" 
-              alt="Breanna Steward - Web Developer"
-              className="profile-image"
-              onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'flex';
-              }}
-            />
-            <div className="profile-placeholder" style={{ display: 'none' }}>
-              <span>👨‍💻</span>
+          <div className="profile-photo-wrapper">
+            <div className="profile-photo">
+              <img 
+                src="/images/Portfolio_Photo1.jpg" 
+                alt="Breanna Steward - Web Developer"
+                className="profile-image"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+              <div className="profile-placeholder" style={{ display: 'none' }}>
+                <span>👨‍💻</span>
+              </div>
             </div>
           </div>
         </div>
