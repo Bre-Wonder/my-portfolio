@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <span className="logo-text">Bre.</span>
+          <span className="logo-text">bre.</span>
         </Link>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
