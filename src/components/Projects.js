@@ -90,7 +90,7 @@ const Projects = () => {
         <div className="projects-header">
           <h1 className="page-title">My Projects</h1>
           <p className="page-subtitle">
-            Here are some of the projects I've worked on. Each project represents 
+            Check out what I've already worked on. Each project represents 
             a unique challenge and learning experience.
           </p>
         </div>
