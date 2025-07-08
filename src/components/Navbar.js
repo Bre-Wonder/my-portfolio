@@ -18,11 +18,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <img 
-            src="/images/logo.png" 
-            alt="Portfolio Logo" 
-            className="logo-image"
-          />
+          <span className="logo-text">Bre.</span>
         </Link>
         
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
