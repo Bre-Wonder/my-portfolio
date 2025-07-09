@@ -51,7 +51,7 @@ export const projects = [
     title: 'React Native Mobile Chat App',
     description: 'The Chat Me Upp Mobile App is designed for user to be able to allow users a chat interface where they can exchanged text and image messages. The user will start on an initial screen where they can choose their username and background color. Once the user clicks the "Start Chatting" button they will be directed to a second screen that allows the messaging of text, location and images. ',
     image: '🎨',
-    screenshot: process.env.PUBLIC_URL + '/images/chat.png',
+    screenshot: process.env.PUBLIC_URL + '/images/Chat.png',
     technologies: ['REACT NATIVE', 'Expo CLI', 'React Navigation Stack', 'CGifted Chat Libaray', 'Cloud Firestore from Google'],
     category: 'mobile',
     liveUrl: '#',
