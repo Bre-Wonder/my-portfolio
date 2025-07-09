@@ -40,7 +40,7 @@ const Home = () => {
           <div className="profile-photo-wrapper">
             <div className="profile-photo">
               <img 
-                src="/images/Portfolio_Photo1.jpg" 
+                src={process.env.PUBLIC_URL + "/images/Portfolio_Photo1.jpg"} 
                 alt="Breanna Steward - Web Developer"
                 className="profile-image"
                 onError={(e) => {

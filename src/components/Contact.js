@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="contact-icon">
                     {info.icon === 'linkedin' ? (
                       <img 
-                        src="/images/LI-In-Bug.png" 
+                        src={process.env.PUBLIC_URL + "/images/LI-In-Bug.png"} 
                         alt="LinkedIn" 
                         className="linkedin-icon"
                       />
@@ -82,28 +82,28 @@ const Contact = () => {
               <div className="social-icons">
                 <a href="https://github.com/Bre-Wonder" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
-                    src="/images/github-mark.png" 
+                    src={process.env.PUBLIC_URL + "/images/github-mark.png"} 
                     alt="GitHub" 
                     className="github-icon"
                   />
                 </a>
                 <a href="https://www.linkedin.com/in/breanna-steward-8b2a462a9" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
-                    src="/images/LI-In-Bug.png" 
+                    src={process.env.PUBLIC_URL + "/images/LI-In-Bug.png"} 
                     alt="LinkedIn" 
                     className="linkedin-icon"
                   />
                 </a>
                 <a href="https://x.com/bresteward61" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
-                    src="/images/Xlogo.png" 
+                    src={process.env.PUBLIC_URL + "/images/Xlogo.png"} 
                     alt="Twitter/X" 
                     className="x-icon"
                   />
                 </a>
                 <a href="https://medium.com/@bresteward61" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
-                    src="/images/Medium-Icon-Black.png" 
+                    src={process.env.PUBLIC_URL + "/images/Medium-Icon-Black.png"} 
                     alt="Medium" 
                     className="medium-icon"
                   />
