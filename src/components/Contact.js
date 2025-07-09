@@ -22,10 +22,10 @@ const Contact = () => {
       link: null
     },
     {
-      icon: 'linkedin',
-      title: 'LinkedIn',
-      value: 'My Profile Here',
-      link: 'https://www.linkedin.com/in/breanna-steward-8b2a462a9'
+      icon: '⬇️',
+      title: 'Resume',
+      value: 'Download Resume',
+      link: process.env.PUBLIC_URL + '/resume.pdf'
     }
   ];
 
@@ -48,15 +48,7 @@ const Contact = () => {
               {contactInfo.map((info, index) => (
                 <div key={index} className="contact-info-item">
                   <div className="contact-icon">
-                    {info.icon === 'linkedin' ? (
-                      <img 
-                        src={process.env.PUBLIC_URL + "/images/LI-In-Bug.png"} 
-                        alt="LinkedIn" 
-                        className="linkedin-icon"
-                      />
-                    ) : (
-                      info.icon
-                    )}
+                    {info.icon}
                   </div>
                   <div className="contact-details">
                     <h3>{info.title}</h3>
