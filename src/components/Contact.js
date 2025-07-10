@@ -79,7 +79,7 @@ const Contact = () => {
                     className="github-icon"
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/breanna-steward-8b2a462a9" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <a href="https://www.linkedin.com/in/breanna-steward" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
                     src={process.env.PUBLIC_URL + "/images/LI-In-Bug.png"} 
                     alt="LinkedIn" 
