@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Location',
-      value: 'Portland, OR',
+      value: 'Portland, OR  +  Open to Remote',
       link: null
     },
     {
