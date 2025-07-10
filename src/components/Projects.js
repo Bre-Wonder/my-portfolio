@@ -41,7 +41,7 @@ export const projects = [
     description:'The Meet App is a serverless, progressive web application built in React using test-driven development. The user should be able to open the application whether online or offline to select a city to see a list of events for that location. Each city should allow the user to select event details, filter the number of events they want to view, and see a vizualization of the details of all the events going on in that city.',
     image: '📝',
     screenshot: process.env.PUBLIC_URL + '/images/Meet.png',
-    technologies: ['React', 'D3', 'AWS Lambda', 'gh-pages'],
+    technologies: ['React', 'D3', 'AWS Lambda'],
     category: 'fullstack',
     liveUrl: 'https://bre-wonder.github.io/meet-app/',
     githubUrl: 'https://github.com/Bre-Wonder/meet-app'
@@ -52,7 +52,7 @@ export const projects = [
     description: 'The Chat Me Upp Mobile App is designed for user to be able to allow users a chat interface where they can exchanged text and image messages. The user will start on an initial screen where they can choose their username and background color. Once the user clicks the "Start Chatting" button they will be directed to a second screen that allows the messaging of text, location and images. ',
     image: '',
     screenshot: process.env.PUBLIC_URL + '/images/Chat.png',
-    technologies: ['REACT NATIVE', 'Expo CLI', 'React Navigation Stack', 'CGifted Chat Libaray', 'Cloud Firestore from Google'],
+    technologies: ['REACT NATIVE', 'Expo CLI', 'CGifted Chat Libaray', 'Cloud Firestore from Google'],
     category: 'mobile',
     liveUrl: '#',
     githubUrl: 'https://github.com/Bre-Wonder/chat-demo/tree/main`'
