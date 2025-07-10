@@ -18,7 +18,7 @@ export const projects = [
     title: 'myFlix API',
     description: 'The objective of this projest was to build a server-side component of a web applications meant to user to interact with movies. Each user will be able to review a listing of movies and be able to add them to their favorites list. Movies have different pieces of information that the user can look at such as director, genre, and summary. A user can also create, update, and delete a profile. ',
     image: '',
-    screenshot: process.env.PUBLIC_URL + '/images/import-image.png',
+    screenshot: process.env.PUBLIC_URL + '/images/rest-api-blue-logo-22099.png',
     technologies: ['Express', 'Node.js', 'MongoDB'],
     category: 'backend',
     liveUrl: '#',
