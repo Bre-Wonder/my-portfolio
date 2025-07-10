@@ -44,6 +44,14 @@
   margin-bottom: 1.5rem;
 }
 
+.hero-subtitle-small {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: -1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .hero-description {
   font-size: 1.1rem;
   color: #e2e8f0;
