@@ -184,12 +184,15 @@
 }
 
 .live-link {
-  background-color: var(--accent-color);
-  color: white;
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 2px solid var(--border-color);
 }
 
 .live-link:hover {
-  background-color: var(--accent-secondary);
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
