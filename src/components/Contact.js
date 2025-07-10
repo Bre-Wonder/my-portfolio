@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: '📍',
       title: 'Location',
-      value: 'Portland, OR  +  Open to Remote',
+      value: 'Portland, OR  [ Open to Remote ]',
       link: null
     },
     {
@@ -55,8 +55,8 @@ const Contact = () => {
                     {info.link ? (
                       <a 
                         href={info.link} 
-                        target={info.link.startsWith('http') ? '_blank' : undefined}
-                        rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                        target={info.link.startsWith('http') || info.link.includes('.pdf') ? '_blank' : undefined}
+                        rel={info.link.startsWith('http') || info.link.includes('.pdf') ? 'noopener noreferrer' : undefined}
                         className="contact-link"
                       >
                         {info.value}
