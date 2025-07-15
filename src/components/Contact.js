@@ -86,6 +86,7 @@ const Contact = () => {
                     className="linkedin-icon"
                   />
                 </a>
+                {/*
                 <a href="https://x.com/bresteward61" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <img 
                     src={process.env.PUBLIC_URL + "/images/Xlogo.png"} 
@@ -100,6 +101,7 @@ const Contact = () => {
                     className="medium-icon"
                   />
                 </a>
+                */}
               </div>
             </div>
           </div>
