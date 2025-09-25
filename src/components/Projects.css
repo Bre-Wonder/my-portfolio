@@ -210,6 +210,20 @@
   box-shadow: var(--shadow-sm);
 }
 
+.case-study-link {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 2px solid var(--border-color);
+}
+
+.case-study-link:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
 .no-projects {
   text-align: center;
   padding: 3rem;
