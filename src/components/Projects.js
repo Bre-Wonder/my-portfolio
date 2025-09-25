@@ -66,7 +66,19 @@ export const projects = [
     technologies: ['Angular', 'Typescript', 'Angular Material'],
     category: 'frontend',
     liveUrl: 'https://bre-wonder.github.io/myFlix-Angular-App/welcome',
-    githubUrl: 'https://github.com/Bre-Wonder/myFlix-Angular-App'
+    githubUrl: 'https://github.com/Bre-Wonder/myFlix-Angular-App',
+  },
+  {
+    id: 7,
+    title: 'Pythong Django Recipe Application',
+    description: 'A Python Django project built to store recipes in a database and a UI for users to interact with recipes by adding, deleting, updating or viewing.',
+    image: '🍳',
+    screenshot: process.env.PUBLIC_URL + '/images/recipe_app.png',
+    technologies: ['Python', 'Django', 'Microsoft Azure Cloud Services', 'DataFrames', 'matplotlib'],
+    category: 'fullstack',
+    liveUrl: 'https://recipeappcf-awh5b5dbgweucxgr.westus2-01.azurewebsites.net/',
+    githubUrl: 'https://github.com/Bre-Wonder/recipe_app',
+    pdfLink: process.env.PUBLIC_URL + '/Case.Study.Python.pdf'
   }
 ];
 
@@ -155,6 +167,16 @@ const Projects = () => {
                   >
                     GitHub
                   </a>
+                  {project.pdfLink && project.pdfLink !== '#' && (
+                    <a 
+                      href={project.pdfLink} 
+                      className="project-link case-study-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Case Study PDF
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
