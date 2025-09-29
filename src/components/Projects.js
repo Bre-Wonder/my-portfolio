@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: 'Pythong Django Recipe Application',
+    title: 'Python Django Recipe Application',
     description: 'A Python Django project built to store recipes in a database and a UI for users to interact with recipes by adding, deleting, updating or viewing.',
     image: '🍳',
     screenshot: process.env.PUBLIC_URL + '/images/recipe_app.png',
