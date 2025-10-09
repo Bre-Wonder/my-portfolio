@@ -44,7 +44,8 @@ export const projects = [
     technologies: ['React', 'D3', 'AWS Lambda'],
     category: 'fullstack',
     liveUrl: 'https://bre-wonder.github.io/meet-app/',
-    githubUrl: 'https://github.com/Bre-Wonder/meet-app'
+    githubUrl: 'https://github.com/Bre-Wonder/meet-app',
+    pdfLink: process.env.PUBLIC_URL + '/Case.Study.PWA.pdf'
   },
   {
     id: 5,
