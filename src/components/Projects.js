@@ -68,6 +68,7 @@ export const projects = [
     category: 'frontend',
     liveUrl: 'https://bre-wonder.github.io/myFlix-Angular-App/welcome',
     githubUrl: 'https://github.com/Bre-Wonder/myFlix-Angular-App',
+    pdfLink: process.env.PUBLIC_URL + '/Case.Study.Angular.pdf'
   },
   {
     id: 7,
